@@ -1,0 +1,736 @@
+p{
+  font-family: "Playwrite AU QLD", curs  
+  color: white;
+
+}
+h1{
+  font-family: "Playfair Display", serif;
+
+}
+
+
+
+
+
+body {
+     font-family: "Playfair Display", serif;
+     background: black;
+     margin: 0;
+     padding: 0;
+     transition: all .10s ease-in-out;
+     ackground-image:linear-gradient( 10deg,#710913,#000000);
+     
+}
+nav{
+  background:transparent;
+  font-size:25px ;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all .10s ease-in-out;
+  
+     
+}
+nav li{
+     display: inline-block;
+     margin: 0 8px;
+
+     transition: all .10s ease-in-out;
+     
+}
+nav a{
+     text-decoration: none;
+     color: #b4a5a5;
+     transition: all .10s ease-in-out;
+}
+  
+  .logo{
+       font-size: 30px;
+      opacity: 0;
+       font-weight: bolder;
+       transition: all .10s ease-in-out;
+  }
+  
+  
+  nav a:hover{
+       color: red;
+       background: whitesmoke;
+       border-radius: 20px;
+       padding: 5px;
+  }
+  .minu-line{
+       height: 3px;
+       width: 20px;
+       background: black;
+       margin-bottom: 3px;
+       transition: all .10s ease-in-out;
+      
+  }
+  .menu{
+       display: none;
+       cursor: pointer;
+       transition: all .10s ease-in-out;
+       color: #ffffff;
+  }
+  
+  
+  
+  
+  
+  @media all and (max-width:640px){
+       nav{
+            display: block  ;
+
+            width: 100%;
+          
+       }
+       
+       nav li{
+            display: block;
+            padding:10px 0;
+       }
+       ul{
+            text-align: center;
+            padding: 0;
+            display: none;
+       }
+       
+       .logo{
+            align-self:flex-start ;
+            opacity:0;
+            margin:10px 0px 0px 30px;
+       }
+       .menu{
+            display: block;
+            position: absolute;
+            right: 20px;
+            top: 25px;
+            
+       }
+       .showmenu{
+            display:block;
+          
+         } 
+       
+       
+      } 
+       
+       
+     .karthi{
+         animation-duration:2s;
+         animation-name:s;
+         z-index:2;
+         justify-content: colum;
+         margin-top: 10em;
+        
+         
+     }
+     @keyframes s{
+          from {
+               margin-left: 8%;
+          }
+          to{
+               margin-left: 0%;
+          }
+     }
+     
+     
+        
+        
+            .karthi p{
+            width: 50%;
+            padding-left:30px;
+            color: white;
+            font-size: 25px;
+            margin-left: 0;
+            line-height: 60px;
+            font-family: "Playwrite AU QLD", curs;
+            margin-bottom:60px;
+         }
+         .karthi h1{
+              width: 50%;
+              padding-left:30px;
+              font-family: "Playfair Display", serif;
+         }
+         .h{
+           font-size: 50px; 
+           color:#b4a5a5 ;  
+           gab:5px;
+         }
+         
+         .hh{
+              font-size: 55px;
+              
+         }
+           .karthi p a{
+                text-decoration: none;
+                color: #b4a5a5;
+           }
+     
+       
+       
+         @media screen and (max-width:640px){
+         
+         .karthi{
+              margin-top:5em;
+              
+              
+         }
+         
+         
+        .karthi p{
+            width: 50%;
+            margin-bottom:0px;
+            color: white;
+
+            letter-spacing: px;
+            line-height: 20px;
+            padding-left:10px;
+            font-size: 10px;
+            margin-left: 0;
+            
+            font-family: "Playwrite AU QLD", curs;
+            
+         }
+         .karthi h1{
+              width: 50%;
+              padding-left:10px;
+              
+         }
+         .h{
+           font-size: 20px; 
+           color:#b4a5a5 ;  
+         }
+         
+         .hh{
+              font-size: 25px;
+         }
+         
+        
+  }
+  
+  
+  
+  
+  
+  .box{
+       width: 350px;
+       height: 20vh;
+       background: transparent;
+       border: #00000000;
+       border-radius: 100%;
+       position: relative; 
+       left: 37em;
+       z-index:5;
+       bottom: 270px;
+       animation-duration: 2s;
+       animation-name: t;
+       opacity: 8
+  }
+      
+     @keyframes t{
+          from {
+               margin-left: 3%;
+          }
+          to{
+               margin-left: 0%;
+          }
+     }
+     
+     .box img{
+       position: relative;
+       left: 1em;
+       bottom: 10em;
+       height: 20vh;
+       width: 320px;
+       background :#b4a5a5;
+       border-radius: 20px;
+       
+     }
+  
+  
+  
+     @media screen and (max-width:640px){
+           .box{
+              width: 320px;
+              height: 20vh;
+              background: b4a5a5;
+              border-radius: 20px;
+              position: relative; 
+              left: 16em;
+              z-index:5;
+              bottom: 130px;
+         }
+     
+     .box img{
+       position: relative;
+       left: 0.5em;
+       bottom: 1em;
+       height: 20vh;
+       width: 130px;
+       background :#b4a5a5;
+       border-radius: 20px;
+       
+     }
+  
+     }
+  
+.button{
+  position: relative;
+  right: 40em;
+  bottom: 120px;
+  border-color: blue;
+  border-radius: px;
+  width: 108px;
+  height: 30px;
+  transition: all .10s ease-in-out;
+
+  
+}
+.button:hover{
+  border-color:red ;
+  width: 130px;
+}
+      
+  
+  @media screen and (max-width:640px){
+    .button{
+  position: relative;
+  right: 28em;
+  top: 1em;
+  border-color: blue;
+  width: 80px;
+  height: 20px;
+    }
+  }
+    
+
+
+/* From Uiverse.io by SelfMadeSystem */ 
+
+svg{
+    width: 50em;
+  height: 52em;
+  
+  
+}
+.loader {
+  width: 30em;
+  height: 32em;
+  position: relative;
+  left: 33em;
+  bottom: 60em;
+  z-index: 0;
+}
+
+.loader path {
+  stroke: white;
+  stroke-width: 0.6px;
+  animation: dashArray 4s ease-in-out infinite,
+    dashOffset 4s linear infinite;
+}
+
+@keyframes dashArray {
+  0% {
+    stroke-dasharray: 0 1 359 0;
+  }
+
+  50% {
+    stroke-dasharray: 0 359 1 0;
+  }
+
+  100% {
+    stroke-dasharray: 359 1 0 0;
+  }
+}
+
+@keyframes dashOffset {
+  0% {
+    stroke-dashoffset: 365;
+  }
+
+  100% {
+    stroke-dashoffset: 5;
+  }
+}
+     @media screen and (max-width:640px){
+       .loader {
+           width: 12em;
+           height: 15em;
+           position: relative;
+           left: 14.5em;
+           bottom: 22.5em;
+           background: re
+           z-index: 0;
+}
+     }
+
+  .about{
+    background :#b4a5a5;
+    position: relative;
+    bottom: 10em;
+    margin-bottom: 20em;
+    animation-duration: 2s;
+    animation-name:a;
+  }
+       @keyframes a {
+       from {
+         margin-left: 8%;
+       }
+       
+       to {
+         margin-left: 0%;
+       }
+     }
+  
+  .about p{
+    width:35em;
+    padding:10px 30px;
+    color : white;
+    margin-bottom: 20em;
+    position: absolute;
+    left:25em;
+    line-height: 45px;
+    font-size: 1rem;
+    top:-27em;
+    font-family: "Playfair Display", serif;
+
+  }
+
+  .about p a{
+    font-family: "Playfair Display", serif;
+    color:#b4a5a5 ;
+
+  }
+
+    
+    
+  .ha{
+    background :#b4a5a5;
+    padding:5px 30px ;
+    position: relative;
+    display: flex;
+    bottom:10em;
+  }
+  
+  .p p{
+        width:35em;
+    padding:10px 30px;
+    color : white;
+    margin-bottom: 20em;
+    position: absolute;
+    left:25em;
+    line-height: 45px;
+    font-size: 1rem;
+    top:95em;
+    font-family: "Playfair Display", serif;
+    animation-duration: 2s;
+    animation-name:a;         @keyframes a {
+       from {
+         margin-left: 8%;
+       }
+       
+       to {
+         margin-left: 0%;
+       }
+     }
+  
+
+
+
+  }
+  .img{
+    background:#b4a5a5;
+    width: 20em;
+    height: 35em;
+    position: relative;
+    bottom:57em;
+    display: flex;
+    z-index: 0;
+    left: 40px;
+    border-radius: 20px;
+    animation-duration: 2s;
+    animation-name:a;
+    transition: 1s;
+    }
+  
+         @keyframes a {
+       from {
+         margin-left: 8%;
+       }
+       
+       to {
+         margin-left: 0%;
+       }
+     }
+  
+   .img img{
+     height: 55em;
+     width: 25em;
+     position: absolute;
+     bottom: 1em;
+     right: 1px;
+     transition:1s ;
+   }
+    .img img:hover {
+      transform: scale3d(.875, .875, .875);
+
+    }
+    /* From Uiverse.io by adnannaim */ 
+
+
+.ed{
+  margin: ;
+  position: relative;
+  top:15em;
+  background:#b4a5a5;
+
+  padding: 10px 50px;
+}
+
+
+.tottl{
+  position: relative;
+  top:30em;
+}
+
+.card-one{
+  width: 35em;
+  height: 15em;
+  border-radius: 20px;
+  background:#b4a5a5;
+  position: relative;
+  left:3em;
+  bottom: 70em;
+  animation-duration: 2s;
+animation-name:a;
+    }
+    
+    @keyframes a {
+      from {
+        margin-left: 8%;
+      }
+      
+      to {
+        margin-left: 0%;
+      }
+    }
+.card-two {
+  width: 35em;
+  height: 15em;
+  border-radius: 20px;
+  background:#b4a5a5;
+  position: relative;
+  left: 3em;
+  bottom: 64em;
+  box-shadow:
+    0 4px 10px rgba(10, 10, 31, 0.5),
+    0 0 10px rgba(66, 135, 245, 0.15),
+    inset 0 0 10px rgba(66, 135, 245, 0.05);
+    animation-duration: 2s;
+    animation-name:a;
+    }
+    
+    @keyframes a {
+      from {
+        margin-left: 8%;
+      }
+      
+      to {
+        margin-left: 0%;
+      }
+    }
+
+.card-one img {
+  width: 210px;
+  height: 195px;
+  background: white;
+  position: absolute;
+  top: 23px;
+  left: 30px;
+  border-radius: 30px;
+}
+
+.card-two img {
+  width: 210px;
+  height: 195px;
+  background: white;
+  position: absolute;
+  top: 23px;
+  left: 30px;
+  border-radius: 30px;
+}
+.card-one p{
+  margin: 10px 260px;
+  width: 290px;
+  font-family: "Playwrite AU QLD", curs  
+
+}
+.card-one h1{
+  margin-top:20px;
+  padding-top: 30px;
+  width: 290px;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+
+}
+
+.card-two p{
+  margin: 10px 260px;
+  width: 290px;
+ font-family: "Playwrite AU QLD", curs  
+
+
+}
+.card-two h1{
+  margin-top:20px;
+  padding-top: 30px;
+  width: 290px;
+  font-size: 20px;
+}
+.image img{
+  position: relative;
+  bottom: 65em;
+  left:42em;
+  background: #b4a5a5;
+  width: 20em;
+  border: 1px solid #000;
+  border-radius:20px;
+}
+.work{
+  background :red;
+  position: relative;
+  padding: 15px 25px;
+  background: #b4a5a5;
+  top:20em;
+  animation-duration: 2s;
+  animation-name:a;
+  
+}
+    @keyframes a {
+      from {
+        margin-left: 8%;
+      }
+      
+      to {
+        margin-left: 0%;
+      }
+    }
+.one{
+  color: #b4a5a5;
+  position: relative;
+  left: 50px;
+  bottom: 8em;
+  font-size: 5rem;
+  width: 10em;
+
+}
+.line{
+  width: 30em;
+  height: 5px;
+  background: #b4a5a5;
+  position: relative;
+  bottom: 40em;
+}
+.red{
+  opacity: 
+  background: red;
+  color: white;
+  width: 25em;
+  position: relative;
+  bottom: 30em;
+  padding-left: 58px;
+}
+.red img{
+  
+
+  width: 25em;
+  position: relative;
+  bottom: 17em;
+  border: 7px solid #b4a5a5;
+  width: 20em;
+  left :30em;
+  box-shadow:
+    0 4px 10px rgba(rgba(206, 208, 227, 1)),
+    0 0 10px rgba(206, 208, 227, 1),
+    inset 0 0 10px rgba(206, 208, 227, 1);
+    transition :1s; 
+      
+  
+}
+.red h1 {
+  color: #b4a5a5;
+}
+.red p{
+  font-family: "Playwrite AU QLD", curs  
+
+}
+
+.red img:hover{
+  border: 7px solid red;
+  transform: scale3d(.875, .875, .875);
+  
+
+}
+
+.two {
+  color: #b4a5a5;
+  position: relative;
+  left: 7em;
+  bottom: 7em;
+  font-size: 5rem;
+  width: 10em;
+  
+  
+}
+
+
+.div{
+  width: 30em;
+  height: 5px;
+  background: #b4a5a5;
+  position: relative;
+  bottom: 35em;
+  left: 30em;
+}
+.blue {
+  opacity: 
+  background: red;
+  color: white;
+  width: 25em;
+  position: relative;
+  bottom: 27em;
+  left: 35em;
+}
+.blue img{
+  
+
+  width: 25em;
+  position: relative;
+  bottom: 19em;
+  border: 7px solid #b4a5a5;
+  width: 20em;
+  right:32em;
+  box-shadow:
+    0 4px 10px rgba(rgba(206, 208, 227, 1)),
+    0 0 10px rgba(206, 208, 227, 1),
+    inset 0 0 10px rgba(206, 208, 227, 1);
+    transition :1s; 
+      
+  
+}
+.blue h1{
+  color:#b4a5a5;
+}
+.blue p{
+  font-family: "Playwrite AU QLD", curs  
+
+}
+
+.blue img:hover{
+  border: 7px solid red;
+  transform: scale3d(.875, .875, .875);
+  
+
+}
